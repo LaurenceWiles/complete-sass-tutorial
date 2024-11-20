@@ -5,6 +5,11 @@
   .text-#{$key} {
     color: $val;
   }
+  .text-hover-#{$key} {
+    &:hover {
+      color: $val;
+    }
+  }
   .bg-#{$key} {
     background: $val;
   }
@@ -15,24 +20,28 @@
       .text-#{$key}-light-#{$i} {
         color: color.mix(white, $val, $i * 10%);
       }
+      .text-hover-#{$key}-light-#{$i} {
+        &:hover {
+          color: color.mix(white, $val, $i * 10%);
+        }
+      }
       .bg-#{$key}-light-#{$i} {
         background: color.mix(white, $val, $i * 10%);
       }
-    }
-    // dark variations
-    @for $i from 1 through 9 {
-      .text-#{$key}-dark-#{$i} {
-        color: color.mix(black, $val, $i * 10%);
+      // dark variations
+      @for $i from 1 through 9 {
+        .text-#{$key}-dark-#{$i} {
+          color: color.mix(black, $val, $i * 10%);
+        }
+        .text-hover-#{$key}-dark-#{$i} {
+          &:hover {
+            color: color.mix(black, $val, $i + 10%);
+          }
+        }
+        .bg-#{$key}-dark-#{$i} {
+          background: color.mix(black, $val, $i * 10%);
+        }
       }
-      .bg-#{$key}-dark-#{$i} {
-        background: color.mix(black, $val, $i * 10%);
-      }
     }
-  }
-}
-
-@if (10 < 5) {
-  .test-if {
-    color: black;
   }
 }
