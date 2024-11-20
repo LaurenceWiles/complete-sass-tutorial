@@ -1,8 +1,11 @@
 const { src, dest, watch, series } = require("gulp");
-const sass = require("gulp-sass")(require("sass"));
+const sass = require("sass");
+const gulpSass = require("gulp-sass")(sass);
 
 const buildStyles = () => {
-  return src("shinobi/**/*.scss").pipe(sass()).pipe(dest("css"));
+  return src("shinobi/**/*.scss")
+    .pipe(gulpSass().on("error", gulpSass.logError))
+    .pipe(dest("css"));
 };
 
 const watchTask = () => {
