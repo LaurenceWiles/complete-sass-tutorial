@@ -1,0 +1,22 @@
+@use "./variables.scss" as vars;
+
+.card {
+  display: block;
+  padding: vars.$base-padding;
+  border: vars.$base-border-thickness solid #ddd;
+  box-shadow: vars.$base-box-shadow;
+
+  .card-title {
+    font-size: vars.$base-font-size;
+    padding-bottom: vars.$base-padding;
+    font-weight: bold;
+  }
+
+  .card-body {
+    font-size: vars.$base-font-size;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}
