@@ -1,4 +1,5 @@
 @use "./variables.scss" as vars;
+@use "../functions" as func;
 @use "sass:color";
 
 @mixin btn($bg-color: #e2e2e2) {
@@ -27,6 +28,14 @@
     border: vars.$base-border-thickness solid $val;
     &:hover {
       background: $val;
+    }
+  }
+  .btn-complement-#{$key} {
+    @include btn($val);
+    color: func.light-comp($val);
+    &:hover {
+      color: $val;
+      background: func.light-comp($val);
     }
   }
 }
