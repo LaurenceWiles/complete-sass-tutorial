@@ -12085,3 +12085,364 @@ img {
 .card .card-body a {
   text-decoration: underline;
 }
+
+.btn {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #e2e2e2;
+}
+
+.btn-primary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #326dee;
+}
+.btn-primary:hover {
+  background: rgb(73.5472972973, 125.7702702703, 239.9527027027);
+}
+
+.btn-outlined-primary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid #326dee;
+}
+.btn-outlined-primary:hover {
+  background: #326dee;
+}
+
+.btn-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #1ac888;
+}
+.btn-secondary:hover {
+  background: rgb(28.9336283186, 222.5663716814, 151.3451327434);
+}
+
+.btn-outlined-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid #1ac888;
+}
+.btn-outlined-secondary:hover {
+  background: #1ac888;
+}
+
+.btn-error {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #d32752;
+}
+.btn-error:hover {
+  background: rgb(218.418, 57.082, 97.416);
+}
+
+.btn-outlined-error {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid #d32752;
+}
+.btn-outlined-error:hover {
+  background: #d32752;
+}
+
+.btn-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #f6c31c;
+}
+.btn-info:hover {
+  background: rgb(246.9724576271, 201.4830508475, 52.5275423729);
+}
+
+.btn-outlined-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid #f6c31c;
+}
+.btn-outlined-info:hover {
+  background: #f6c31c;
+}
+
+.btn-blue {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #1919e6;
+}
+.btn-blue:hover {
+  background: rgb(48, 48, 232.5);
+}
+
+.btn-outlined-blue {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid #1919e6;
+}
+.btn-outlined-blue:hover {
+  background: #1919e6;
+}
+
+.btn-red {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #e61919;
+}
+.btn-red:hover {
+  background: rgb(232.5, 48, 48);
+}
+
+.btn-outlined-red {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid #e61919;
+}
+.btn-outlined-red:hover {
+  background: #e61919;
+}
+
+.btn-yellow {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #e6e619;
+}
+.btn-yellow:hover {
+  background: rgb(232.5, 232.5, 48);
+}
+
+.btn-outlined-yellow {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid #e6e619;
+}
+.btn-outlined-yellow:hover {
+  background: #e6e619;
+}
+
+.btn-green {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #19e635;
+}
+.btn-green:hover {
+  background: rgb(48, 232.5, 73.2);
+}
+
+.btn-outlined-green {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid #19e635;
+}
+.btn-outlined-green:hover {
+  background: #19e635;
+}
+
+.btn-orange {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #ffa600;
+}
+.btn-orange:hover {
+  background: rgb(255, 174.9, 25.5);
+}
+
+.btn-outlined-orange {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid #ffa600;
+}
+.btn-outlined-orange:hover {
+  background: #ffa600;
+}
+
+.btn-purple {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #9900ff;
+}
+.btn-purple:hover {
+  background: rgb(163.2, 25.5, 255);
+}
+
+.btn-outlined-purple {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid #9900ff;
+}
+.btn-outlined-purple:hover {
+  background: #9900ff;
+}
+
+.btn-gray {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #808080;
+}
+.btn-gray:hover {
+  background: rgb(140.75, 140.75, 140.75);
+}
+
+.btn-outlined-gray {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid #808080;
+}
+.btn-outlined-gray:hover {
+  background: #808080;
+}
+
+.btn-black {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: black;
+}
+.btn-black:hover {
+  background: rgb(12.75, 12.75, 12.75);
+}
+
+.btn-outlined-black {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid black;
+}
+.btn-outlined-black:hover {
+  background: black;
+}
+
+.btn-white {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: white;
+}
+.btn-white:hover {
+  background: hsl(0, 0%, 105%);
+}
+
+.btn-outlined-white {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid white;
+}
+.btn-outlined-white:hover {
+  background: white;
+}

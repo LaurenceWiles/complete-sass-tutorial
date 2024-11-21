@@ -1,0 +1,32 @@
+@use "./variables.scss" as vars;
+@use "sass:color";
+
+@mixin btn($bg-color: #e2e2e2) {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: vars.$base-padding vars.$base-padding * 2;
+  border-radius: vars.$base-border-radius;
+  background: $bg-color;
+}
+
+.btn {
+  @include btn;
+}
+
+@each $key, $val in vars.$colors {
+  .btn-#{$key} {
+    @include btn($val);
+    &:hover {
+      background: color.adjust($val, $lightness: 5%);
+    }
+  }
+  .btn-outlined-#{$key} {
+    @include btn(#fff);
+    border: vars.$base-border-thickness solid $val;
+    &:hover {
+      background: $val;
+    }
+  }
+}
