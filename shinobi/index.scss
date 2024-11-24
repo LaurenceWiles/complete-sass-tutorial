@@ -5,6 +5,7 @@
 // base & layout
 @use "./base" as base;
 @use "./breakpoints";
+@use "./grid";
 
 // colors
 @use "./colors";
