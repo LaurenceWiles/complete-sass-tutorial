@@ -1,5 +1,8 @@
+// shinobi/index.scss
+
 // variables & functions
-@use "./variables.scss" as vars;
+@forward "./variables.scss";
+
 @use "./functions";
 
 // base & layout
@@ -17,3 +20,8 @@
 
 // utilities (margin, padding, opacity)
 @use "./utilities";
+
+@forward "./functions"; // Expose all functions
+@forward "./components/card"; // Expose card-specific mixins and variables
+@forward "./components/button"; // Expose button-specific mixins and variables
+@forward "./utilities"; // Expose utilities

@@ -1,0 +1,11 @@
+$primary: indigo;
+$base-padding: 1rem;
+$base-border-thickness: 3px;
+
+@use "../shinobi/variables.scss" as vars with (
+  $primary: $primary,
+  $base-padding: $base-padding,
+  $base-border-thickness: $base-border-thickness
+);
+
+@use "../shinobi/index.scss" as shinobi;

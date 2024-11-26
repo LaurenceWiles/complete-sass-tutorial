@@ -95,171 +95,171 @@ img {
   }
 }
 .text-primary {
-  color: #326dee;
+  color: indigo;
 }
 
 .bg-primary {
-  background: #326dee;
+  background: indigo;
 }
 
 .bg-primary-dark-2 {
-  background: rgb(40, 87.2, 190.4);
+  background: #3c0068;
 }
 
 .bg-primary-dark-4 {
-  background: rgb(30, 65.4, 142.8);
+  background: #2d004e;
 }
 
 .bg-primary-dark-6 {
-  background: rgb(20, 43.6, 95.2);
+  background: #1e0034;
 }
 
 .bg-primary-dark-8 {
-  background: rgb(10, 21.8, 47.6);
+  background: #0f001a;
 }
 
 .bg-primary-light-2 {
-  background: rgb(91, 138.2, 241.4);
+  background: #6f339b;
 }
 
 .bg-primary-dark-2 {
-  background: rgb(40, 87.2, 190.4);
+  background: #3c0068;
 }
 
 .bg-primary-dark-4 {
-  background: rgb(30, 65.4, 142.8);
+  background: #2d004e;
 }
 
 .bg-primary-dark-6 {
-  background: rgb(20, 43.6, 95.2);
+  background: #1e0034;
 }
 
 .bg-primary-dark-8 {
-  background: rgb(10, 21.8, 47.6);
+  background: #0f001a;
 }
 
 .bg-primary-dark-2 {
-  background: rgb(40, 87.2, 190.4);
+  background: #3c0068;
 }
 
 .bg-primary-dark-4 {
-  background: rgb(30, 65.4, 142.8);
+  background: #2d004e;
 }
 
 .bg-primary-dark-6 {
-  background: rgb(20, 43.6, 95.2);
+  background: #1e0034;
 }
 
 .bg-primary-dark-8 {
-  background: rgb(10, 21.8, 47.6);
+  background: #0f001a;
 }
 
 .bg-primary-light-4 {
-  background: rgb(132, 167.4, 244.8);
+  background: #9366b4;
 }
 
 .bg-primary-dark-2 {
-  background: rgb(40, 87.2, 190.4);
+  background: #3c0068;
 }
 
 .bg-primary-dark-4 {
-  background: rgb(30, 65.4, 142.8);
+  background: #2d004e;
 }
 
 .bg-primary-dark-6 {
-  background: rgb(20, 43.6, 95.2);
+  background: #1e0034;
 }
 
 .bg-primary-dark-8 {
-  background: rgb(10, 21.8, 47.6);
+  background: #0f001a;
 }
 
 .bg-primary-dark-2 {
-  background: rgb(40, 87.2, 190.4);
+  background: #3c0068;
 }
 
 .bg-primary-dark-4 {
-  background: rgb(30, 65.4, 142.8);
+  background: #2d004e;
 }
 
 .bg-primary-dark-6 {
-  background: rgb(20, 43.6, 95.2);
+  background: #1e0034;
 }
 
 .bg-primary-dark-8 {
-  background: rgb(10, 21.8, 47.6);
+  background: #0f001a;
 }
 
 .bg-primary-light-6 {
-  background: rgb(173, 196.6, 248.2);
+  background: #b799cd;
 }
 
 .bg-primary-dark-2 {
-  background: rgb(40, 87.2, 190.4);
+  background: #3c0068;
 }
 
 .bg-primary-dark-4 {
-  background: rgb(30, 65.4, 142.8);
+  background: #2d004e;
 }
 
 .bg-primary-dark-6 {
-  background: rgb(20, 43.6, 95.2);
+  background: #1e0034;
 }
 
 .bg-primary-dark-8 {
-  background: rgb(10, 21.8, 47.6);
+  background: #0f001a;
 }
 
 .bg-primary-dark-2 {
-  background: rgb(40, 87.2, 190.4);
+  background: #3c0068;
 }
 
 .bg-primary-dark-4 {
-  background: rgb(30, 65.4, 142.8);
+  background: #2d004e;
 }
 
 .bg-primary-dark-6 {
-  background: rgb(20, 43.6, 95.2);
+  background: #1e0034;
 }
 
 .bg-primary-dark-8 {
-  background: rgb(10, 21.8, 47.6);
+  background: #0f001a;
 }
 
 .bg-primary-light-8 {
-  background: rgb(214, 225.8, 251.6);
+  background: #dbcce6;
 }
 
 .bg-primary-dark-2 {
-  background: rgb(40, 87.2, 190.4);
+  background: #3c0068;
 }
 
 .bg-primary-dark-4 {
-  background: rgb(30, 65.4, 142.8);
+  background: #2d004e;
 }
 
 .bg-primary-dark-6 {
-  background: rgb(20, 43.6, 95.2);
+  background: #1e0034;
 }
 
 .bg-primary-dark-8 {
-  background: rgb(10, 21.8, 47.6);
+  background: #0f001a;
 }
 
 .bg-primary-dark-2 {
-  background: rgb(40, 87.2, 190.4);
+  background: #3c0068;
 }
 
 .bg-primary-dark-4 {
-  background: rgb(30, 65.4, 142.8);
+  background: #2d004e;
 }
 
 .bg-primary-dark-6 {
-  background: rgb(20, 43.6, 95.2);
+  background: #1e0034;
 }
 
 .bg-primary-dark-8 {
-  background: rgb(10, 21.8, 47.6);
+  background: #0f001a;
 }
 
 .text-secondary {
@@ -368,14 +368,14 @@ img {
 
 .card {
   display: block;
-  padding: 0.75rem;
-  border: 1px solid #ddd;
+  padding: 1rem;
+  border: 3px solid #ddd;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
 .card .card-title {
   font-size: 1.5rem;
-  padding-bottom: 0.75rem;
+  padding-bottom: 1rem;
   font-weight: bold;
 }
 .card .card-body {
@@ -390,7 +390,7 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background: #e2e2e2;
 }
@@ -400,12 +400,12 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
-  background: #326dee;
+  background: indigo;
 }
 .btn-primary:hover {
-  background: rgb(73.5472972973, 125.7702702703, 239.9527027027);
+  background: rgb(89.7115384615, 0, 155.5);
 }
 
 .btn-complement-primary {
@@ -413,14 +413,14 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
-  background: #326dee;
-  color: rgb(249.7162162162, 231.3783783784, 191.2837837838);
+  background: indigo;
+  color: rgb(124.0384615385, 255, 28);
 }
 .btn-complement-primary:hover {
-  color: #326dee;
-  background: rgb(249.7162162162, 231.3783783784, 191.2837837838);
+  color: indigo;
+  background: rgb(124.0384615385, 255, 28);
 }
 
 .btn-secondary {
@@ -428,7 +428,7 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background: #1ac888;
 }
@@ -441,10 +441,10 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background: #fff;
-  border: 1px solid #1ac888;
+  border: 3px solid #1ac888;
 }
 .btn-outlined-secondary:hover {
   background: #1ac888;
@@ -455,7 +455,7 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background: #d32752;
 }
@@ -468,7 +468,7 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background: #f6c31c;
 }
@@ -481,10 +481,10 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background: #fff;
-  border: 1px solid #ffa600;
+  border: 3px solid #ffa600;
 }
 .btn-outlined-orange:hover {
   background: #ffa600;
@@ -495,10 +495,10 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background: #fff;
-  border: 1px solid #9900ff;
+  border: 3px solid #9900ff;
 }
 .btn-outlined-purple:hover {
   background: #9900ff;
@@ -509,7 +509,7 @@ img {
   cursor: pointer;
   display: inline-block;
   border: 0;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 20px;
   background: #9900ff;
   color: rgb(193.8, 255, 153);
@@ -528,14 +528,14 @@ img {
 }
 
 .navbar, .navbar-primary {
-  padding: 0.75rem 2.75rem;
+  padding: 1rem 3rem;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
 .navbar .site-title, .navbar-primary .site-title {
   font-size: 1.5rem;
 }
 .navbar-primary {
-  background-color: #326dee;
+  background-color: indigo;
 }
 
 .p-0 {
@@ -543,19 +543,19 @@ img {
 }
 
 .pt-3 {
-  padding-top: 3rem;
+  padding-top: 4rem;
 }
 
 .pt-4 {
-  padding-top: 4.5rem;
+  padding-top: 6rem;
 }
 
 .pb-3 {
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
 }
 
 .pb-4 {
-  padding-bottom: 4.5rem;
+  padding-bottom: 6rem;
 }
 
 .m-1 {

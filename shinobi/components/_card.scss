@@ -1,4 +1,4 @@
-@use "./variables.scss" as vars;
+@use "../variables" as vars;
 @use "sass:math";
 
 .card {
